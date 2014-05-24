@@ -1,4 +1,4 @@
-![build status](https://travis-ci.org/shackra/myip.svg)
+[![Build Status](https://travis-ci.org/shackra/myip.svg?branch=master)](https://travis-ci.org/shackra/myip)
 
 myip
 ====
