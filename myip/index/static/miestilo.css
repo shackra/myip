@@ -1,0 +1,63 @@
+@import url(http://fonts.googleapis.com/css?family=Varela+Round);
+@import url(http://fonts.googleapis.com/css?family=Source+Code+Pro:700);
+
+body {
+    background: #2d112d;
+    color: white;
+    font-size: 16px;
+    font-family: 'Varela Round', sans-serif;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#contenido {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    margin-top: 10%;
+}
+
+.grande {
+    font-size: 2em;
+    color: #830130;
+}
+
+.ip {
+    font-size: 3.5em;
+    color: #ff6f44;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.wikipedia {
+    font-size: 0.8em;
+    color: #830130;
+}
+
+.wikipedia:before {
+    content: " ~";
+}
+
+.wikipedia a {
+    text-decoration: none;    
+}
+
+.wikipedia a:link {
+    color: #ff6f44;
+}
+
+.wikipedia a:visited {
+    color: #542517;
+}
+
+.wikipedia a:hover {
+    color: #a84a2d;
+}
+
+.wikipedia a:active {
+    color: #830130;
+}
+

@@ -1,0 +1,22 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html>
+    <head>
+	<title>What's my IP address?</title>
+	<link rel="stylesheet" href="{% static "normalize.css" %}" />
+	<link rel="stylesheet" href="{% static "miestilo.css" %}"  />
+    </head>
+    <body>
+	<div id="contenido">
+	    <section>
+		<p class="grande">Your IP address:</p>
+                <p class="ip">{{remote_ip}}</p>
+	    </section>
+	    <section class="column">
+		<h2>What an IP address is?</h2>
+		<p>An Internet Protocol address (IP address) is a numerical label assigned to each device (e.g., computer, printer) participating in a computer network that uses the Internet Protocol for communication. An IP address serves two principal functions: host or network interface identification and location addressing. Its role has been characterized as follows: "A name indicates what we seek. An address indicates where it is. A route indicates how to get there."<span class="wikipedia"><a href="https://en.wikipedia.org/wiki/IP_address">Wikipedia, The free encyclopedia</a>.</span></p>
+	    </section>
+	</div>
+    </body>
+</html>
+
