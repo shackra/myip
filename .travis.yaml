@@ -1,5 +1,5 @@
 language: python
-# command to install dependencies
+# command to install dependencies.
 install: "pip install -r requirements.txt"
 # variables de entorno
 env: DJANGO_SETTINGS_MODULE=myip.settings
